@@ -1,4 +1,6 @@
-# Stream
+# Documentation
+
+### Streams
 
 -   First my server read that file (text.txt)(maybe it is 1GB file) which first load data in memory.
 -   Once my data read is complete then it will be sent to user.
@@ -9,4 +11,4 @@
 -   In real time as server reads data it return that particular chunks to user.
 -   So we created pipeline which read data and as it read it will also send it to user simultaneously
 
-- To learn more - https://nodejs.org/api/stream.html
+-   To learn more - https://nodejs.org/api/stream.html
